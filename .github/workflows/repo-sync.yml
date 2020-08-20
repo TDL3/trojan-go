@@ -1,6 +1,8 @@
+
+name: Sync from upstream
 on:
   schedule:
-  - cron:  "0 * * * *"
+  - cron:  "0/2 * * * *"
 jobs:
   repo-sync:
     runs-on: ubuntu-latest
